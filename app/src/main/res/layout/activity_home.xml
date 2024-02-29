@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineSpotShadowColor="#FFFFFF"
+    tools:context=".Home">
+
+    <ImageButton
+        android:id="@+id/SpainBtn"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FBFBFB"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645"
+        app:srcCompat="@drawable/spanish" />
+
+    <TextView
+        android:id="@+id/SpainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Spain"
+        app:layout_constraintBottom_toBottomOf="@id/SpainBtn"
+        app:layout_constraintEnd_toEndOf="@id/SpainBtn"
+        app:layout_constraintStart_toStartOf="@id/SpainBtn"
+        app:layout_constraintTop_toTopOf="@id/SpainBtn" />
+
+    <ImageButton
+        android:id="@+id/ChinaBtn"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FBFBFB"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784"
+        app:srcCompat="@drawable/china" />
+
+    <TextView
+        android:id="@+id/ChinaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       China"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@id/ChinaBtn"
+        app:layout_constraintEnd_toEndOf="@id/ChinaBtn"
+        app:layout_constraintStart_toStartOf="@id/ChinaBtn"
+        app:layout_constraintTop_toTopOf="@id/ChinaBtn" />
+
+    <ImageButton
+        android:id="@+id/KoreaBtn"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FBFBFB"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784"
+        app:srcCompat="@drawable/korea" />
+
+    <ImageButton
+        android:id="@+id/sa"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FBFBFB"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924"
+        app:srcCompat="@drawable/southafrica" />
+
+    <TextView
+        android:id="@+id/satxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         South Africa"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@id/sa"
+        app:layout_constraintEnd_toEndOf="@id/sa"
+        app:layout_constraintStart_toStartOf="@id/sa"
+        app:layout_constraintTop_toTopOf="@id/sa" />
+
+
+    <TextView
+        android:id="@+id/Korea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Korea"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/KoreaBtn"
+        app:layout_constraintEnd_toEndOf="@id/KoreaBtn"
+        app:layout_constraintStart_toStartOf="@id/KoreaBtn"
+        app:layout_constraintTop_toTopOf="@id/KoreaBtn" />
+
+    <ImageButton
+        android:id="@+id/FranceBtn"
+        android:layout_width="145dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FBFBFB"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645"
+        app:srcCompat="@drawable/french" />
+
+    <TextView
+        android:id="@+id/france"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="France"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/FranceBtn"
+        app:layout_constraintEnd_toEndOf="@id/FranceBtn"
+        app:layout_constraintStart_toStartOf="@id/FranceBtn"
+        app:layout_constraintTop_toTopOf="@id/FranceBtn" />
+
+    <TextView
+        android:id="@+id/TextDisp"
+        android:layout_width="408dp"
+        android:layout_height="86dp"
+        android:text="       Hello World"
+        android:textSize="140px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
